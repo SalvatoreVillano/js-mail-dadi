@@ -6,7 +6,7 @@ document.getElementById('esegui').addEventListener('click', function(){
     for(let i = 0;i<emails.length; i++){
     
     const userEmail = document.getElementById('email').value
-    console.log( userEmail +" == "+emails[i])
+    
     if (userEmail == emails[i] || cond == true){
         document.getElementById('esegui').classList.add('d-none')
         document.getElementById('messageBox').classList.add('d-block')
